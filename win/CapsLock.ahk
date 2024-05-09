@@ -1,5 +1,5 @@
 ;=====================================================================o
-;                   Feng Ruohang's AHK Script                         | 
+;                   Feng Ruohang's AHK Script                         |
 ;                      CapsLock Enhancement                           |
 ;---------------------------------------------------------------------o
 ;Description:                                                         |
@@ -350,7 +350,7 @@ CapsLock & g:: Send, {AppsKey}                                       ;|
 ;-----------------------------------o---------------------------------o
 CapsLock & d:: Send, !d                                              ;|
 CapsLock & f:: Send, !f                                              ;|
-CapsLock & e:: Run http://cn.bing.com/                               ;|
+CapsLock & e:: Run http://duckduckgo.com/                            ;|
 CapsLock & r:: Run Powershell                                        ;|
 CapsLock & t:: Run C:\Program Files (x86)\Notepad++\notepad++.exe    ;|
 ;---------------------------------------------------------------------o
