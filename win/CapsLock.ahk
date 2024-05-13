@@ -352,7 +352,7 @@ CapsLock & d:: Send, !d                                              ;|
 CapsLock & f:: Send, !f                                              ;|
 CapsLock & e:: Run http://duckduckgo.com/                            ;|
 CapsLock & r:: Run Powershell                                        ;|
-CapsLock & t:: Run C:\Program Files (x86)\Notepad++\notepad++.exe    ;|
+CapsLock & t:: Run "C:\Users\Tom\AppData\Local\atom\atom.exe"        ;|
 ;---------------------------------------------------------------------o
 
 
