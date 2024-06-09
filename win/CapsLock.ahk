@@ -320,7 +320,6 @@ CapsLock & F6:: Send, {Media_Stop}                                   ;|
 ;                     CapsLock + q  |  Ctrl + W   (Close Tag)        ;|
 ;   (Disabled)  Alt + CapsLock + s  |  AltTab     (Switch Windows)   ;|
 ;               Alt + CapsLock + q  |  Ctrl + Tab (Close Windows)    ;|
-;                     CapsLock + g  |  AppsKey    (Menu Key)         ;|
 ;-----------------------------------o---------------------------------o
 CapsLock & s::Send, ^{Tab}                                           ;|
 ;-----------------------------------o                                ;|
@@ -334,8 +333,7 @@ else {                                                               ;|
     return                                                           ;|
 }                                                                    ;|
 return                                                               ;|
-;-----------------------------------o                                ;|
-CapsLock & g:: Send, {AppsKey}                                       ;|
+;                                                                    ;|
 ;---------------------------------------------------------------------o
 
 
@@ -345,14 +343,16 @@ CapsLock & g:: Send, {AppsKey}                                       ;|
 ;                     CapsLock + d  |  Alt + d(Dictionary)           ;|
 ;                     CapsLock + f  |  Alt + f(Search via Everything);|
 ;                     CapsLock + e  |  Open Search Engine            ;|
-;                     CapsLock + r  |  Open Shell                    ;|
-;                     CapsLock + t  |  Open Text Editor              ;|
+;                     CapsLock + r  |  Open terminus                 ;|
+;                     CapsLock + t  |  Open atom                     ;|
+;                     CapsLock + g  |  Open github                   ;|
 ;-----------------------------------o---------------------------------o
 CapsLock & d:: Send, !d                                              ;|
 CapsLock & f:: Send, !f                                              ;|
 CapsLock & e:: Run http://duckduckgo.com/                            ;|
-CapsLock & r:: Run Powershell                                        ;|
-CapsLock & t:: Run "C:\Users\Tom\AppData\Local\atom\atom.exe"        ;|
+CapsLock & r:: Run "C:\Users\hello\AppData\Local\Programs\Termius\Termius.exe"    ;|
+CapsLock & t:: Run "C:\Users\hello\AppData\Local\atom\atom.exe"      ;|
+CapsLock & g:: Run "C:\Users\hello\AppData\Local\GitHubDesktop\GitHubDesktop.exe"      ;|
 ;---------------------------------------------------------------------o
 
 
