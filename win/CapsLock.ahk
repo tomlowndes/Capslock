@@ -340,19 +340,19 @@ return                                                               ;|
 ;=====================================================================o
 ;                        CapsLock Self Defined Area                  ;|
 ;-----------------------------------o---------------------------------o
-;                     CapsLock + d  |  Alt + d(Dictionary)           ;|
+;                     CapsLock + d  |  New Folder Descript           ;|
 ;                     CapsLock + f  |  Alt + f(Search via Everything);|
 ;                     CapsLock + e  |  Open Search Engine            ;|
-;                     CapsLock + r  |  Open terminus                 ;|
-;                     CapsLock + t  |  Open atom                     ;|
+;                     CapsLock + r  |  Open atom                     ;|
+;                     CapsLock + t  |  Open terminus                 ;|
 ;                     CapsLock + g  |  Open github                   ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & d:: Send, !d                                              ;|
+CapsLock & d:: Run C:\Users\Tom\Proton Drive\eartquakepersimmon\My files\@Github\Auto-folder-creation\folder.py             ;|
 CapsLock & f:: Send, !f                                              ;|
 CapsLock & e:: Run http://duckduckgo.com/                            ;|
-CapsLock & r:: Run "C:\Users\hello\AppData\Local\Programs\Termius\Termius.exe"    ;|
-CapsLock & t:: Run "C:\Users\hello\AppData\Local\atom\atom.exe"      ;|
-CapsLock & g:: Run "C:\Users\hello\AppData\Local\GitHubDesktop\GitHubDesktop.exe"      ;|
+CapsLock & r:: Run "C:\Users\Tom\AppData\Local\Programs\Atom\Atom.exe"    ;|
+CapsLock & t:: Run "C:\Users\Tom\AppData\Local\Programs\Termius\Termius.exe"      ;|
+CapsLock & g:: Run "C:\Users\Tom\AppData\Local\GitHubDesktop\GitHubDesktop.exe"      ;|
 ;---------------------------------------------------------------------o
 
 
