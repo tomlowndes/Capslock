@@ -347,12 +347,12 @@ return                                                               ;|
 ;                     CapsLock + t  |  Open terminus                 ;|
 ;                     CapsLock + g  |  Open github                   ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & d:: Run C:\Users\Tom\Proton Drive\eartquakepersimmon\My files\@Github\Auto-folder-creation\folder.py             ;|
+CapsLock & d:: Run D:\Vault\My files\@Github\Auto-folder-creation\Auto-folder-creation\folder.py             ;|
 CapsLock & f:: Send, !f                                              ;|
 CapsLock & e:: Run http://duckduckgo.com/                            ;|
-CapsLock & r:: Run "C:\Users\Tom\AppData\Local\Programs\Atom\Atom.exe"    ;|
-CapsLock & t:: Run "C:\Users\Tom\AppData\Local\Programs\Termius\Termius.exe"      ;|
-CapsLock & g:: Run "C:\Users\Tom\AppData\Local\GitHubDesktop\GitHubDesktop.exe"      ;|
+CapsLock & r:: Run "C:\Users\Hello\AppData\Local\Programs\Atom\Atom.exe"    ;|
+CapsLock & t:: Run "C:\Users\Hello\AppData\Local\Programs\Termius\Termius.exe"      ;|
+CapsLock & g:: Run "C:\Users\Hello\AppData\Local\GitHubDesktop\GitHubDesktop.exe"      ;|
 ;---------------------------------------------------------------------o
 
 
