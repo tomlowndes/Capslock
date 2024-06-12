@@ -347,7 +347,7 @@ return                                                               ;|
 ;                     CapsLock + t  |  Open terminus                 ;|
 ;                     CapsLock + g  |  Open github                   ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & d:: Run D:\Vault\My files\@Github\Auto-folder-creation\Auto-folder-creation\folder.py             ;|
+CapsLock & d:: Run D:\Vault\My files\@Github\Auto-folder-creation\folder.py             ;|
 CapsLock & f:: Send, !f                                              ;|
 CapsLock & e:: Run http://duckduckgo.com/                            ;|
 CapsLock & r:: Run "C:\Users\hello\AppData\Local\atom\atom.exe"    ;|
