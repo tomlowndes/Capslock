@@ -279,38 +279,25 @@ CapsLock & n:: Send, ^{BS}                                           ;|
 ;                     CapsLock + c  |  Ctrl + c (Copy)               ;|
 ;                     CapsLock + v  |  Ctrl + z (Paste)              ;|
 ;                     CapsLock + a  |  Ctrl + a (Select All)         ;|
-;                     CapsLock + y  |  Ctrl + z (Yeild)              ;|
-;                     CapsLock + w  |  Ctrl + Right(Move as [vim: w]);|
-;                     CapsLock + b  |  Ctrl + Left (Move as [vim: b]);|
 ;-----------------------------------o---------------------------------o
 CapsLock & z:: Send, ^z                                              ;|
 CapsLock & x:: Send, ^x                                              ;|
 CapsLock & c:: Send, ^c                                              ;|
 CapsLock & v:: Send, ^v                                              ;|
 CapsLock & a:: Send, ^a                                              ;|
-CapsLock & y:: Send, ^y                                              ;|
-CapsLock & w:: Send, ^{Right}                                        ;|
-CapsLock & b:: Send, ^{Left}                                         ;|
 ;---------------------------------------------------------------------o
 
 
 ;=====================================================================o
-;                       CapsLock Media Controller                    ;|
+;                                                                    ;|
 ;-----------------------------------o---------------------------------o
-;                    CapsLock + F1  |  Volume_Mute                   ;|
-;                    CapsLock + F2  |  Volume_Down                   ;|
-;                    CapsLock + F3  |  Volume_Up                     ;|
-;                    CapsLock + F3  |  Media_Play_Pause              ;|
-;                    CapsLock + F5  |  Media_Next                    ;|
-;                    CapsLock + F6  |  Media_Stop                    ;|
+;                    CapsLock + F1  |                     ;|
+;                    CapsLock + F2  |                ;|
+;                    CapsLock + F3  |                  ;|
+;                    CapsLock + F3  |              ;|
+;                    CapsLock + F5  |              ;|
+;                    CapsLock + F6  |               ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & F1:: Send, {Volume_Mute}                                  ;|
-CapsLock & F2:: Send, {Volume_Down}                                  ;|
-CapsLock & F3:: Send, {Volume_Up}                                    ;|
-CapsLock & F4:: Send, {Media_Play_Pause}                             ;|
-CapsLock & F5:: Send, {Media_Next}                                   ;|
-CapsLock & F6:: Send, {Media_Stop}                                   ;|
-;---------------------------------------------------------------------o
 
 
 ;=====================================================================o
@@ -353,53 +340,4 @@ CapsLock & e:: Run http://duckduckgo.com/                            ;|
 CapsLock & r:: Run "C:\Users\Tom\AppData\Local\atom\atom.exe"    ;|
 CapsLock & t:: Run "C:\Users\Tom\AppData\Local\Programs\Termius\Termius.exe"      ;|
 CapsLock & g:: Run "C:\Users\Tom\AppData\Local\GitHubDesktop\GitHubDesktop.exe"      ;|
-;---------------------------------------------------------------------o
-
-
-;=====================================================================o
-;                        CapsLock Char Mapping                       ;|
-;-----------------------------------o---------------------------------o
-;                     CapsLock + ;  |  Enter (Cancel)                ;|
-;                     CapsLock + '  |  =                             ;|
-;                     CapsLock + [  |  Back         (Visual Studio)  ;|
-;                     CapsLock + ]  |  Goto Define  (Visual Studio)  ;|
-;                     CapsLock + /  |  Comment      (Visual Studio)  ;|
-;                     CapsLock + \  |  Uncomment    (Visual Studio)  ;|
-;                     CapsLock + 1  |  Build and Run(Visual Studio)  ;|
-;                     CapsLock + 2  |  Debuging     (Visual Studio)  ;|
-;                     CapsLock + 3  |  Step Over    (Visual Studio)  ;|
-;                     CapsLock + 4  |  Step In      (Visual Studio)  ;|
-;                     CapsLock + 5  |  Stop Debuging(Visual Studio)  ;|
-;                     CapsLock + 6  |  Shift + 6     ^               ;|
-;                     CapsLock + 7  |  Shift + 7     &               ;|
-;                     CapsLock + 8  |  Shift + 8     *               ;|
-;                     CapsLock + 9  |  Shift + 9     (               ;|
-;                     CapsLock + 0  |  Shift + 0     )               ;|
-;-----------------------------------o---------------------------------o
-CapsLock & `;:: Send, {Enter}                                        ;|
-CapsLock & ':: Send, =                                               ;|
-CapsLock & [:: Send, ^-                                              ;|
-CapsLock & ]:: Send, {F12}                                           ;|
-;-----------------------------------o                                ;|
-CapsLock & /::                                                       ;|
-Send, ^e                                                             ;|
-Send, c                                                              ;|
-return                                                               ;|
-;-----------------------------------o                                ;|
-CapsLock & \::                                                       ;|
-Send, ^e                                                             ;|
-Send, u                                                              ;|
-return                                                               ;|
-;-----------------------------------o                                ;|
-CapsLock & 1:: Send,^{F5}                                            ;|
-CapsLock & 2:: Send,{F5}                                             ;|
-CapsLock & 3:: Send,{F10}                                            ;|
-CapsLock & 4:: Send,{F11}                                            ;|
-CapsLock & 5:: Send,+{F5}                                            ;|
-;-----------------------------------o                                ;|
-CapsLock & 6:: Send,+6                                               ;|
-CapsLock & 7:: Send,+7                                               ;|
-CapsLock & 8:: Send,+8                                               ;|
-CapsLock & 9:: Send,+9                                               ;|
-CapsLock & 0:: Send,+0                                               ;|
 ;---------------------------------------------------------------------o
