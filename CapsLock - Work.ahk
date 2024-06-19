@@ -341,3 +341,11 @@ CapsLock & r:: Run "C:\Users\Tom\AppData\Local\atom\atom.exe"    ;|
 CapsLock & t:: Run "C:\Users\Tom\AppData\Local\Programs\Termius\Termius.exe"      ;|
 CapsLock & g:: Run "C:\Users\Tom\AppData\Local\GitHubDesktop\GitHubDesktop.exe"      ;|
 ;---------------------------------------------------------------------o
+
+;=====================================================================o
+;                        Text Shortcuts                              ;|
+;-----------------------------------o---------------------------------o
+;                     hell;         |  insert email                  ;|
+;-----------------------------------o---------------------------------o
+::hell;::hello@tomlowndes.co.uk                                     ;|
+;---------------------------------------------------------------------o
