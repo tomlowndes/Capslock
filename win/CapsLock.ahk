@@ -267,7 +267,6 @@ return                                                               ;|
 CapsLock & ,:: Send, {Del}                                           ;|
 CapsLock & .:: Send, ^{Del}                                          ;|
 CapsLock & m:: Send, {BS}                                            ;|
-CapsLock & n:: Send, ^{BS}                                           ;|
 ;---------------------------------------------------------------------o
 
 
@@ -347,12 +346,13 @@ return                                                               ;|
 ;                     CapsLock + t  |  Open terminus                 ;|
 ;                     CapsLock + g  |  Open github                   ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & d:: Run D:\Vault\My files\@Github\Auto-folder-creation\folder.py             ;|
+CapsLock & n:: Run D:\Vault\My files\@Github\Auto-folder-creation\folder.py             ;|
 CapsLock & f:: Send, !f                                              ;|
 CapsLock & e:: Run http://duckduckgo.com/                            ;|
 CapsLock & r:: Run "C:\Users\hello\AppData\Local\atom\atom.exe"    ;|
 CapsLock & t:: Run "C:\Users\Hello\AppData\Local\Programs\Termius\Termius.exe"      ;|
 CapsLock & g:: Run "C:\Users\Hello\AppData\Local\GitHubDesktop\GitHubDesktop.exe"      ;|
+CapsLock & d:: Run "C:\Users\hello\AppData\Local\Discord\Update.exe" ;|
 ;---------------------------------------------------------------------o
 
 
